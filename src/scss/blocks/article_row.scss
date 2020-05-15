@@ -1,0 +1,36 @@
+.article-row{
+	display: flex;
+}
+
+.article-row-item{
+	margin: 5rem 0 5rem 2rem;
+	box-sizing: border-box;
+}
+
+.article-row > .article-row-item:first-child{
+	margin-left: 0;
+}
+.article-row-item__image{
+	background-color: $second-color;
+	padding-top: 60%;
+}
+
+.article-row-item__header{
+	font-size: 1.5rem;
+	font-weight: normal;
+	color: $article-p-h;
+	margin: 1.5rem 0 1rem 0;
+}
+
+.article-row-item__p{
+	color: $article-p-h;
+	margin: 0 0 2rem 0;
+}
+
+.article-row-item__a{
+	color: $article-a;
+	cursor: pointer;
+	&:hover{
+		color: $third-color;
+	}
+}

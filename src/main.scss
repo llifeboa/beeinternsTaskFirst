@@ -1,0 +1,41 @@
+@import "scss/support.scss";
+@import "scss/var.scss";
+@import "scss/animation.scss";
+
+//Components
+@import "scss/components/logo.scss";
+@import "scss/components/navigation.scss";
+@import "scss/components/button.scss";
+
+
+//Blocks
+@import "scss/blocks/header.scss";
+@import "scss/blocks/banner.scss";
+@import "scss/blocks/article_row.scss";
+@import "scss/blocks/sign_up.scss";
+@import "scss/blocks/article_column.scss";
+@import "scss/blocks/footer.scss";
+
+//Global
+
+html{
+	font-family: 'Abel', sans-serif;
+	font-size: 18px;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0rem 5rem;
+}
+
+.container_gray{
+	background-color: $second-color;
+}

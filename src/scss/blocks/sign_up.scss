@@ -1,0 +1,27 @@
+.sign-up{
+	padding: 7rem 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.sign-up__header{
+	font-size: 2rem;
+    font-weight: normal;
+    margin: 0 0 1.5rem 0;
+}
+
+.sign-up__form{
+	display: flex;
+}
+
+.sign-up_email{
+    border: none;
+	margin: 0;
+	font-size: 1.4rem;
+	padding: 0.7rem 1.2rem;
+	font-family: inherit;
+	color: $article-a;
+	width: 20rem;
+}
