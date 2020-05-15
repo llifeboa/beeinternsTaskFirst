@@ -1,0 +1,28 @@
+.navbar{
+	display: flex;
+	list-style: none;
+	padding: 0;
+	margin: 1.5rem 0;
+	& .navbar__item:first-child{
+		margin: 0;
+	}
+}
+
+.navbar_white{
+	& > .navbar__item{
+		background-color: $base-color;
+	}
+}
+
+.navbar__item{
+	display: block;
+	background-color: $second-color;
+	height: 1.5rem;
+	width: 8.5rem;
+    margin: 0 0 0 2.2rem;
+    transition: transform 0.5s;
+}
+
+.navbar__item:hover{
+    transform: scale(1.1);
+}

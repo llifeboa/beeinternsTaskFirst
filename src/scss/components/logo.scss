@@ -1,0 +1,9 @@
+.logo{
+	height: 2.9rem;
+	width: 2.9rem;
+	background-color: $second-color;
+	border-radius: 50%;
+	&_white{
+		background-color: $base-color;
+	}
+}

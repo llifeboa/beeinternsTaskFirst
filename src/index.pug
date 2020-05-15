@@ -1,0 +1,94 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		meta(http-equiv="X-UA-Compatible", content="ie=edge")
+		title beeinterns
+		link(rel="stylesheet", href="main.css")
+		link(href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet")
+	body
+		header
+			.container-nav
+				.logo.animation-flare
+				nav
+					ul.navbar
+						li.navbar__item.animation-flare
+						li.navbar__item.animation-flare
+						li.navbar__item.animation-flare
+						li.navbar__item.animation-flare
+		main
+			section
+				.container.container_gray
+					.banner
+						h2.banner__header Banner Header
+						p.banner__p Lorem ipsum dolor sit amet
+						.banner__controls
+							button.button.button_white white button
+							button.button.button_black.ml1_5 black button
+			section
+				.container
+					.article-row
+						article.article-row-item
+							.article-row-item__image.animation-flare
+							h3.article-row-item__header Article Header
+							p.article-row-item__p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+							a.article-row-item__a Read More
+						article.article-row-item
+							.article-row-item__image.animation-flare
+							h3.article-row-item__header Article Header
+							p.article-row-item__p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+							a.article-row-item__a Read More
+						article.article-row-item
+							.article-row-item__image.animation-flare
+							h3.article-row-item__header Article Header
+							p.article-row-item__p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+							a.article-row-item__a Read More
+			section
+				.container.container_gray
+					.sign-up
+						h2.sign-up__header Sign Up for updates
+						form.sign-up__form(action="#")
+							input.sign-up_email(type="email" pattern="^[a-z._]+@[a-z]+\.[a-z]+$" placeholder="Enter you email" required)
+							button.button.button_black(type="submit") fill button
+			section
+				.container
+					.article-column
+						article.article-column-item
+							.article-column-item__text-wrapper
+								h3.article-column-item__header Article Header
+								p.article-column-item__p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+							.article-column-item__image.animation-flare
+						article.article-column-item.article-column-item_reverse
+							.article-column-item__text-wrapper
+								h3.article-column-item__header Article Header
+								p.article-column-item__p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+							.article-column-item__image.animation-flare
+						article.article-column-item
+							.article-column-item__text-wrapper
+								h3.article-column-item__header Article Header
+								p.article-column-item__p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+							.article-column-item__image.animation-flare
+					button.button.button_black.mb4 black button
+		footer
+			.container.container_gray
+				.footer-wrapper
+					.logo.logo_white.animation-flare.animation-flare_gray
+					nav
+						ul.navbar.navbar_white
+							li.navbar__item.animation-flare.animation-flare_gray
+							li.navbar__item.animation-flare.animation-flare_gray
+							li.navbar__item.animation-flare.animation-flare_gray
+							li.navbar__item.animation-flare.animation-flare_gray
+					hr.footer__line
+					.social-list
+						a.social-list__item
+							img.social-list__image(src="static/img/facebook.svg")
+						a.social-list__item
+							img.social-list__image(src="static/img/instagram.svg")
+						a.social-list__item
+							img.social-list__image(src="static/img/in.svg")
+						a.social-list__item
+							img.social-list__image(src="static/img/twitter.svg")
+		script(src="index.js")
+		

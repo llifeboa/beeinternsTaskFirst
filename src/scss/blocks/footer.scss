@@ -1,0 +1,37 @@
+.footer-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5.5rem 0;
+}
+
+.footer__line{
+    height: 0;
+    border: none;
+    width: 90%;
+    margin: 0;
+    border-bottom: 2px solid $base-color;
+}
+
+.social-list{
+    display: flex;
+    align-items: flex-end;
+    margin: 2.5rem 0 0 0;
+    & > .social-list__item:first-child{
+        margin: 0;
+    }
+}
+
+.social-list__item{
+    margin: 0 0 0 2.5rem;
+}
+
+.social-list__image{
+    transition: 0.5s;
+}
+
+.social-list__item:hover > .social-list__image{
+    transform: scale(1.2);
+} 

@@ -1,0 +1,30 @@
+.animation-flare{
+    overflow: hidden;
+    position: relative;
+}
+
+.animation-flare:after{
+	content: "";
+	background-color: $base-color;
+	display: block;
+	opacity: 0.1;
+	height: 200%;
+	width: 15%;
+	position: absolute;
+	transform-origin: center center;
+	bottom: -30%;
+	transform: rotate(35deg);
+	animation: 3s flare infinite;
+}
+.animation-flare_gray:after{
+	background-color: $second-color;
+}
+
+@keyframes flare{
+	0%{
+		left: -50%;
+	}
+	100%{
+		left: 150%;
+	}
+}
